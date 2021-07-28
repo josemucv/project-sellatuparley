@@ -1,0 +1,172 @@
+
+
+/*pagina principal*/
+body {
+   height: 100vh;
+}
+
+/*se aplico Gradientes en el fondo*/
+.fondo1 
+{
+    
+background-image: radial-gradient(black, grey);
+}
+
+.bmenu {
+    display: flex;
+    padding: 25px;
+    text-align: center;
+    flex-wrap: wrap;
+}
+  
+.grid {
+    display: grid;
+    grid-template-areas:
+    "menu2 promo"
+    "menu2 promo";
+     grid-template-columns: 50% 50%;
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+}
+
+section {
+    grid-area: menu2;
+}
+aside {
+grid-area: promo;        
+    }
+
+
+
+.margen{
+margin: 5px;
+padding: 5px;
+}
+
+/*Menu Principal*/
+
+.spaceMenu {
+    margin: 5px;
+    padding: 5px;
+    text-decoration: none;
+    color: orange;
+}
+
+.amenu {
+    display: flex;
+    list-style-type: none;
+    text-align: right;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column-reverse;
+}
+
+ul li {
+    float: right;
+    list-style-type: none;
+}
+
+.titulo {
+    color: orange;
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    }
+
+    #margenes {
+     padding: 25px;
+     color: orange;
+    }
+
+    .pie {
+        text-align: center;
+        background-color:red;
+        color: white;
+        font-size: 25px;
+        font-weight: bold;
+        font-style: italic;
+    }
+
+    /*seccion de promo gulfstream Y La rinconada*/
+
+    .fondo2 {
+        background-color: white;
+    }
+
+    .titulo1 {
+        background-color: white;
+        font-weight: bold;
+        font-style: italic;
+        color: orange;
+        font-size: 30px;
+        text-align: center;
+        text-decoration: underline;
+    }
+    
+    .blist {
+        list-style-type:circle;
+      
+    }
+    .alist {
+        list-style-type: disc;
+    }
+
+    /* seccion de registro*/
+
+    .titulo2 {
+        font-weight: bold;
+        color: orange;
+        font-size: 30px;
+        text-align: center;
+        text-decoration: underline;     
+    }
+
+    .stylec {
+        background-color:white;
+}
+ section p {
+     font-weight: bold;
+ }
+
+ /*seccion de preguntas frecuentes*/
+
+ .pregunta {
+     color: orange;
+     font-weight: bold;
+     font-size: 20px;
+     
+ }
+
+ /* seccion del formulario*/
+
+ .color {
+     color: orange;
+     text-align: center;
+ }
+ .center {
+     display:flex;
+     justify-content: center;
+     flex-wrap: wrap;
+ }
+
+ .terminos {
+     color: rgb(94, 255, 0);
+     font-size:25px;
+     text-decoration: none;
+     
+ }
+
+ 
+
+ 
+
+     
+     
+     
+
+  
+
+ 
